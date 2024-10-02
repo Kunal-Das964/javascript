@@ -32,5 +32,11 @@ const min = 1;
 const max = 6;
 // console.log(Math.floor(Math.random() * (max -min +1)) + min) //method of maths in js
 
-
-
+console.log(Number.EPSILON);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_SAFE_INTEGER);
+console.log(Number.MIN_VALUE);
+console.log(Number.NEGATIVE_INFINITY);
+console.log(Number.NaN);
+console.log(Number.POSITIVE_INFINITY);
