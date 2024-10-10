@@ -1,4 +1,4 @@
-// const userEmail = []
+// const userEmail = 1
 
 // if (userEmail) {
 //     console.log("Got user email");
@@ -8,7 +8,7 @@
 
 // falsy value : false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
-//turthy value : "0", 'false', " ", [], {}, function(){}
+//turthy value : "0", 'false', " ", [], {}, function(){}, 1
 
 // if (userEmail.length === 0) {
 //     console.log("array is empty");
@@ -30,7 +30,7 @@ let val1;
 val1 = undefined ?? 10 ?? 20
 
 
-console.log(val1);
+// console.log(val1);
 
 
 // Terniary Opertor 
@@ -39,5 +39,5 @@ console.log(val1);
 
 const iceTeaPrice = 100
 
-iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
+// iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
 

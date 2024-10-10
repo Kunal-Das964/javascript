@@ -37,5 +37,5 @@ const myCoding = [
 ]
 
 myCoding.forEach( (item) => {
-    console.log(item.langugueName);    
+    // console.log(item.langugueName);    
 } )
