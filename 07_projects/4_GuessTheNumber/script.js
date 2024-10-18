@@ -31,7 +31,7 @@ function validateGuess(guess) {
         alert('Please enter a number less than 100');
     } else {
         prevGuess.push(guess);
-        if (numGuess === 11) {
+        if (numGuess === 10) {
             displayGuess(guess);
             displayMessage(`Game Over.Random number was ${randomNumber}`);
             endGame();
@@ -56,8 +56,9 @@ function checkGuess(guess) {
 function displayGuess(guess) {
     userInput.value = '';
     guessSlot.innerHTML += `${guess} `;
-    numGuess++;
+    
     lastResult.innerHTML = `${10 - numGuess}`
+    numGuess++;
 }
 
 function displayMessage(message) {
@@ -81,7 +82,8 @@ function startGame() {
         prevGuess = [];
         numGuess = 1;
         guessSlot.innerHTML = '';
-        lastResult.innerHTML = `${10 - numGuess}`;
+        lastResult.innerHTML = `${11 - numGuess}`;
+        
         userInput.removeAttribute('disabled');
         startOver.removeChild(p);
         playGame = true;
